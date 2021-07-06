@@ -12,11 +12,13 @@ body{
     height: 60px;
     width: 100%;
     background-color: rgba(143, 140, 101, 0.459);
+    
 }
 
 ul{
     display: flex;
     justify-content: space-between;
+    position: fixed-top;
 }
 
 ul li{
