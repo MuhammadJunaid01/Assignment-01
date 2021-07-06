@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(143, 140, 101, 0.459);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 17px;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: rgba(224, 154, 22, 0.767);
+
+    
+    color: white;
+    padding: 9px 16px;
+    border-radius: 10px;
+}
+/*ends navbar design*/
+
+/*start main-section */
+
+.main-section{
+    display: flex;
+    margin-top: 10%;
+}
+
+.main-sec-body{
+    width: 50%;
+    margin-left: 7%;
+    
+}
+.main-sec-body a{
+    
+    background-color: orange;
+    padding: 16px 30px;
+    border-radius: 26px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main-sec-body img{
+
+    height: 600px;
+}
+
+
+.main-section-p-1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 7%;
+}
+
+.main-section-p-1 span{
+    color: orange;
+    font-size: 60px;
+}
+
+.main-section-p-2{
+    margin-top: 4%;
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 10%;
+}
+
+/*ends main section*/
+
+
+
+/*start about section*/
+
+.about-section{
+    display: flex;
+    margin-top: 10%;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.sec-one{
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.sec-one img{
+    height: 500px;
+}
+
+.sec-one h2{
+    margin-right: 6%;
+    font-size: 33px;
+}
+
+.sec-one p{
+    margin-right: 6%;
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 10%;
+}
+
+.sec-one a{
+    margin-right: 6%;
+    padding: 16px 30px;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*ends scound section*/
+/*start third  section*/
+.third-section{
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+.third-section h2{
+    color: #676767;
+    margin-bottom: 14px;
+    font-size: 30px;
+    margin-left: 27%;
+}
+
+.third-section p{
+    font-size: 20px;
+    line-height: 33px;
+
+}
+/*ends third  section*/
+
+/*start forth section*/
+.forth{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-between;
+}
+
+.forth-section{
+    width: 30%;
+    height: 450px;
+    margin-left: 8%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 25px;
+
+
+}
+
+.forth-section img{
+    width: 100%;
+    height: 240px;
+    margin-left: 1%;
+    padding: 30px 15px;
+}
+
+.forth-section h3{
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.forth-section p{
+    padding: 9px 16px;
+}
+/*ends forth section*/
+
+
+/* start five section*/
+
+.subscribe-section{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 7%;
+    height: 180px;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 27px;
+    margin-top: 5%;
+}
+
+.sub-sec-one{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+.sub-sec-one span{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.sub-sec-one i{
+    background-color: white;
+    color: rgb(167, 51, 51);
+    font-size: 17px;
+}
+
+.sub-sec-one h6{
+    font-size: 20px;
+}
+/* ends five section*/
+
+/* start footer section*/
+
+#flex{
+    width: 100%;
+    height: 220px;
+    margin-top: 8%;
+    background-color: rgba(109, 62, 54, 0.575)
+}
+
+#flex h3{
+    text-align: center;
+    font-size: 30px;
+}
+.flexible-footer{
+    display: flex;
+;
+
+}
+.footer{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+
+.footer p{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#name{
+    padding: 4px 20px;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+#text{
+    margin-top: 1%;
+    padding: 10px 23px;
+    border-radius: 23px;
+}
+
+.footer button{
+    margin-left: 5px;
+    padding: 2px 10px;
+    background-color: orange;
+    border-radius: 20px;
+}
+
+.footer i{
+    font-size: 30px;
+    padding: 4px;
+    margin-right: 3%;
+    color: white;
+    
+}
+
+
+/* start footer section*/
